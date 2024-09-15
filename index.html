@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gomax Tracker</title>
+    <!-- Tailwind CSS cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              openSans: "Open Sans",
+              Robodo: "Roboto",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- robodo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="">
+    <header>
+      <nav class="bg-[#19172f] font-openSans font-bold text-sm">
+        <div class="flex justify-between items-center w-11/12 mx-auto py-2">
+          <div class="flex gap-4">
+            <p class="bg-[#3A3a3a] py-2 px-4 text-white rounded-md">
+              Sells: +8801788888888
+              <i class="fa-solid fa-phone-flip pl-2"></i>
+            </p>
+            <p class="bg-[#3A3a3a] py-2 px-4 text-white rounded-md">
+              Corporate: +8801788888888
+              <i class="fa-solid fa-phone-flip pl-2"></i>
+            </p>
+          </div>
+          <div class="text-white flex justify-between gap-4">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-solid fa-user-large"></i>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="font-openSans navbar bg-base-100 w-11/12 mx-auto my-2 flex justify-between"
+      >
+        <div class="">
+          <a class=""
+            ><img class="w-40" src="./asset/gomaxlogo-1024x410.png" alt="logo"
+          /></a>
+        </div>
+        <div class="" id="nav-item">
+          <ul class="menu flex flex-row">
+            <li><a>Home</a></li>
+            <li>
+              <details>
+                <summary>Product & Price</summary>
+                <ul class="p-2">
+                  <li><a>Car</a></li>
+                  <li><a>Cng</a></li>
+                  <li><a>Heavy duty</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Ship</a></li>
+                  <li><a>Truck</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>About</a></li>
+            <li>
+              <details>
+                <summary>Contact</summary>
+                <ul class="p-2">
+                  <li><a>Support</a></li>
+                  <li><a>Certificate and License</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Blog</a></li>
+            <li><a>App</a></li>
+            <li><a>Corporate</a></li>
+            <li>
+              <details>
+                <summary>Payment</summary>
+                <ul class="p-2">
+                  <li><a>How to pay</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+          <div class="">
+            <a class="btn">Button</a>
+          </div>
+        </div>
+        <div class="dropdown dropdown-left" id="dropdown-menu">
+          <details>
+            <summary class="menu">
+              <i class="fa-solid fa-bars"></i>
+            </summary>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li>
+                <details>
+                  <summary>Product & Price</summary>
+                  <ul class="p-2">
+                    <li><a>Car</a></li>
+                    <li><a>Cng</a></li>
+                    <li><a>Heavy duty</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Ship</a></li>
+                    <li><a>Truck</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a>About</a></li>
+              <li>
+                <details>
+                  <summary>Contact</summary>
+                  <ul class="p-2">
+                    <li><a>Support</a></li>
+                    <li><a>Certificate and License</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a>Blog</a></li>
+              <li><a>App</a></li>
+              <li><a>Corporate</a></li>
+              <li>
+                <details>
+                  <summary>Payment</summary>
+                  <ul class="p-2">
+                    <li><a>How to pay</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
